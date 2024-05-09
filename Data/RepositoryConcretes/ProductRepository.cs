@@ -1,4 +1,5 @@
 ﻿using Core.Models;
+using Core.RepositoryAbstracts;
 using Data.DAL;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Data.RepositoryConcretes
 {
-    public class ProductRepository: GenericRepository<Product>
+    public class ProductRepository: GenericRepository<Product>,IProductRepository
     {
         public ProductRepository(AppDbContext appDbContext) : base(appDbContext)
         {

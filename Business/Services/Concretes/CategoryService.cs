@@ -22,7 +22,6 @@ namespace Business.Services.Concretes
         {
             if (!_categoryRepository.GetAll().Any(x => x.Name == Category.Name))
             {
-
                 await _categoryRepository.AddAsync(Category);
                 await _categoryRepository.CommitAsync();
             }

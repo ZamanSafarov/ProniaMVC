@@ -11,6 +11,5 @@ namespace Core.Models
         public int Id { get; set; }
         public DateTime CreatedDate { get; set; } = DateTime.UtcNow.AddHours(4);
         public DateTime? DeletedDate { get; set; }
-        public int? DeletedByUserId { get; set; }
     }
 }

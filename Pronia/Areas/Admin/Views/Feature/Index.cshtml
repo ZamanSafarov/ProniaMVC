@@ -1,0 +1,34 @@
+﻿@using Core.Models
+@model IEnumerable<Feature>
+<table class="table table-hover table-dark">
+    <thead>
+        <tr>
+            <th scope="col">@Html.DisplayNameFor(model => model.Id)</th>
+            <th scope="col">@Html.DisplayNameFor(model => model.Title)</th>
+            <th scope="col">@Html.DisplayNameFor(model => model.Description)</th>
+            <th scope="col">@Html.DisplayNameFor(model => model.Icon)</th>
+            <th scope="col">Actions</th>
+            <th>
+                <a asp-action="create" asp-controller="feature" type="button" class="btn btn-outline-success">Create</a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+           
+                <th scope="row">@item.Id</th>
+                <td>@item.Title</td>
+                <td>@item.Description</td>
+                <td><img src="@item.Icon" /></td>
+                <td>
+                    <a type="button" asp-action="Update" asp-controller="feature" asp-route-id="@item.Id" class="btn btn-outline-warning">Update</a>
+                    <a type="button" asp-action="Delete" asp-controller="feature" asp-route-id="@item.Id"  class="btn btn-outline-danger">Delete</a>
+                </td>
+         
+         
+        </tr>
+            }
+    </tbody>
+</table>
