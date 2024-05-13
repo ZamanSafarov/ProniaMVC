@@ -1,4 +1,5 @@
-﻿using Business.Services.Abstracts;
+﻿using Business.Exceptions;
+using Business.Services.Abstracts;
 using Core.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -26,20 +27,34 @@ namespace Pronia.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Category Category)
         {
-            await _categoryService.AddCategory(Category);
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+
+            try
+            {
+                await _categoryService.AddCategory(Category);
+            }
+            catch (DuplicateEntityException ex)
+            {
+                ModelState.AddModelError("Name",ex.Message);
+                return View();
+            }
+           
             return RedirectToAction("Index");
         }
         public IActionResult Delete(int id)
         {
             var future = _categoryService.GetCategory(x => x.Id == id && x.DeletedDate == null);
+
             if (future == null)
             {
-                throw new NullReferenceException("Bele bir Model yoxdur!!");
+                return  NotFound();
             }
             else
             {
                 _categoryService.DeleteCategory(id);
-                future.DeletedDate = DateTime.UtcNow.AddHours(4);
             }
 
             return RedirectToAction("Index");
@@ -51,7 +66,7 @@ namespace Pronia.Areas.Admin.Controllers
             var category = _categoryService.GetCategory(x => x.Id == id && x.DeletedDate == null);
             if (category == null)
             {
-                throw new NullReferenceException("Bele bir User yoxdur!!");
+               return  NotFound();
             }
             return View(category);
         }
@@ -59,7 +74,29 @@ namespace Pronia.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Update(Category newCategory)
         {
-            _categoryService.UpdateCategory(newCategory.Id, newCategory);
+            if (newCategory is null)
+            {
+                return NotFound();
+            }
+            else if (!ModelState.IsValid)
+            {
+                return View();
+            }
+
+            try
+            {
+                _categoryService.UpdateCategory(newCategory.Id, newCategory);
+            }
+            catch (DuplicateEntityException ex)
+            {
+                ModelState.AddModelError("Name", ex.Message);
+                return View();
+            }
+            catch (EntityNotFoundException ex) 
+            {
+                return NotFound();
+            }
+           
             return RedirectToAction("Index");
         }
     }

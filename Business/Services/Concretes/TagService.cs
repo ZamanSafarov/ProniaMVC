@@ -1,4 +1,5 @@
-﻿using Business.Services.Abstracts;
+﻿using Business.Exceptions;
+using Business.Services.Abstracts;
 using Core.Models;
 using Core.RepositoryAbstracts;
 using System;
@@ -27,36 +28,53 @@ namespace Business.Services.Concretes
                 await _tagRepository.AddAsync(tag);
                 await _tagRepository.CommitAsync();
             }
+            else
+            {
+                throw new DuplicateEntityException("Tag Already Has");
+            }
         }
 
         public void DeleteTag(int id)
         {
             var existTag = _tagRepository.Get(x => x.Id == id);
-            if (existTag == null) throw new NullReferenceException();
+            if (existTag == null) throw new EntityNotFoundException("Tag does not exsist");
 
             _tagRepository.Delete(existTag);
+            existTag.DeletedDate = DateTime.UtcNow.AddHours(4);
             _tagRepository.Commit();
 
         }
 
         public List<Tag> GetAllTags(Func<Tag, bool>? func = null)
         {
-            return _tagRepository.GetAll(func);
+            var tags = _tagRepository.GetAll(func);
+
+            if (tags is null) throw new EntityNotFoundException("Tag does not exsist");
+
+            return tags;
         }
 
         public Tag GetTag(Func<Tag, bool>? func = null)
         {
-            return _tagRepository.Get(func);
+            var tag = _tagRepository.Get(func);
+
+            if (tag is null) throw new EntityNotFoundException("Tag does not exsist");
+
+            return tag;
         }
 
         public void UpdateTag(int id, Tag newTag)
         {
             Tag oldTag = _tagRepository.Get(x => x.Id == id);
-            if (oldTag == null) throw new NullReferenceException();
-            if (!_tagRepository.GetAll().Any(x => x.Name == newTag.Name))
+            if (oldTag == null) throw new EntityNotFoundException("Tag does not exsist");
+            if (!_tagRepository.GetAll().Any(x => x.Name == newTag.Name && x.Id != id))
             {
                 oldTag.Name = newTag.Name;
 
+            }
+            else
+            {
+                throw new DuplicateEntityException("Tag Already Has");
             }
             _tagRepository.Commit();
         }

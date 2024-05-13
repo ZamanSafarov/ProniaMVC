@@ -1,4 +1,5 @@
-﻿using Business.Services.Abstracts;
+﻿using Business.Exceptions;
+using Business.Services.Abstracts;
 using Core.Models;
 using Data.DAL;
 using Microsoft.AspNetCore.Authorization;
@@ -29,21 +30,34 @@ namespace Pronia.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Feature feature)
         {
-            await _featureService.AddFeature(feature);
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+            try
+            {
+                await _featureService.AddFeature(feature);
+            }
+            catch (DuplicateEntityException ex)
+            {
+                ModelState.AddModelError("Title",ex.Message);
+                return View();
+            }
+       
             return RedirectToAction("Index");
         }
         public IActionResult Delete(int id)
         {
             var future = _featureService.GetFeature(x=>x.Id == id && x.DeletedDate==null);
-            if (future ==null)
-            {
-                throw new NullReferenceException("Bele bir User yoxdur!!");
-            }
-            else
+            try
             {
                 _featureService.DeleteFeature(id);
-                future.DeletedDate = DateTime.UtcNow.AddHours(4);
             }
+            catch (EntityNotFoundException ex)
+            {
+               return NotFound();
+            }
+         
            
             return RedirectToAction("Index");
         }
@@ -52,17 +66,39 @@ namespace Pronia.Areas.Admin.Controllers
         public IActionResult Update(int id)
         {
             var future = _featureService.GetFeature(x => x.Id == id && x.DeletedDate == null);
-            if (future == null)
+
+            if (future is null)
             {
-                throw new NullReferenceException("Bele bir User yoxdur!!");
+                return NotFound();
             }
+       
             return View(future);
         }
 
         [HttpPost]
         public IActionResult Update(Feature newFeature)
         {
-            _featureService.UpdateFeature(newFeature.Id, newFeature);
+            if (newFeature is null)
+            {
+                return NotFound();
+            }
+            else if (!ModelState.IsValid)
+            {
+                return View();
+            }
+
+            try
+            {
+                _featureService.UpdateFeature(newFeature.Id, newFeature);
+            }
+            catch (EntityNotFoundException ex)
+            {
+                return NotFound();
+            }
+            catch(DuplicateEntityException ex) {
+                ModelState.AddModelError("Title",ex.Message);
+                return View(ex);
+            }
             return RedirectToAction("Index");
         }
 

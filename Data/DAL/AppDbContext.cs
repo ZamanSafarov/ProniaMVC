@@ -15,5 +15,6 @@ namespace Data.DAL
         public DbSet<Product> Products { get; set; }
         public DbSet<Tag> Tags { get; set; }
         public DbSet<Feature> Features { get; set; }
+        public DbSet<Slider> Sliders { get; set; }
     }
 }

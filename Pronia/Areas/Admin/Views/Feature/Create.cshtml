@@ -7,15 +7,18 @@
             <form method="post" asp-action="Create">
                     <div class="mb-3">
                         <label class="col-sm-2 col-form-label">Title</label>
-                    <input asp-for="Title" name="Title" type="text" class="form-control" placeholder="Eli Gozel">
+                        <input asp-for="Title" name="Title" type="text" class="form-control" placeholder="Eli Gozel">
+                        <span asp-validation-for="Title" class="text-danger"></span>
                     </div>
                     <div class="mb-3">
                         <label  for="inputPassword" class="col-sm-2 col-form-label">Description</label>
                         <input asp-for="Description" type="text" class="form-control" placeholder="Eli Gozel">
+                        <span asp-validation-for="Description" class="text-danger"></span>
                     </div>
                     <div class="mb-3">
                         <label  class="col-sm-2 col-form-label">Image Path</label>
                         <input asp-for="Icon" type="text" class="form-control" placeholder="/assets/images/website-images//car.png">
+                        <span asp-validation-for="Icon" class="text-danger"></span>
                     </div>
                   
                 <button type="submit" class="btn btn-success">Create</button>

@@ -6,10 +6,13 @@ namespace Pronia.Controllers
     public class ShopController : Controller
     {
         private readonly ICategoryService _categoryService;
-        public ShopController(ICategoryService categoryService)
+        private readonly IProductService _productService;
+        public ShopController(ICategoryService categoryService, IProductService productService)
         {
             _categoryService = categoryService;
+            _productService = productService;
         }
+
         public IActionResult Index()
         {
             var categories = _categoryService.GetAllCategorys();
@@ -18,7 +21,8 @@ namespace Pronia.Controllers
 
         public IActionResult Detail()
         {
-            return View();
+            var products =  _productService.GetAllProducts();
+            return View(products);
         }
     }
 }

@@ -23,8 +23,13 @@ namespace Pronia
             );
             builder.Services.AddScoped<IFeatureService,FeatureService>();
             builder.Services.AddScoped<IFeatureRepository,FeatureRepository>();
+            builder.Services.AddScoped<IProductRepository, ProductRepository>();
+            builder.Services.AddScoped<IProductService, ProductService>();
+            builder.Services.AddScoped<IFeatureRepository, FeatureRepository>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            builder.Services.AddScoped<ISliderService, SliderService>();
+            builder.Services.AddScoped<ISliderRepository, SliderRepository>();
 
             var app = builder.Build();
 
@@ -39,14 +44,12 @@ namespace Pronia
             
             app.UseAuthorization();
 
-            app.MapControllerRoute(
-                name: "areas",
-                pattern: "{area:exists}/{controller=dashboard}/{action=Index}/{id?}"
-             );
 
-            app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+           
+            app.MapAreaControllerRoute("defaultAdmin", "admin", "admin/{controller=dashboard}/{action=index}/{id?}");
+
+            app.MapControllerRoute("default", "{controller=home}/{action=index}/{id?}");
+
 
             app.Run();
         }

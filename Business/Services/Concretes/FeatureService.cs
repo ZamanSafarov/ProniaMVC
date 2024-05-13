@@ -1,4 +1,5 @@
-﻿using Business.Services.Abstracts;
+﻿using Business.Exceptions;
+using Business.Services.Abstracts;
 using Core.Models;
 using Core.RepositoryAbstracts;
 using Data.RepositoryConcretes;
@@ -20,26 +21,44 @@ namespace Business.Services.Concretes
         }
         public async Task AddFeature(Feature feature)
         {
-            await _featureRepository.AddAsync(feature);
-            await _featureRepository.CommitAsync();
+            if (!_featureRepository.GetAll().Any(x => x.Title == feature.Title))
+            {
+                await _featureRepository.AddAsync(feature);
+                await _featureRepository.CommitAsync();
+            }
+            else
+            {
+                throw new DuplicateEntityException("Feature Already Has");
+            }
+            
         }
 
         public void DeleteFeature(int id)
         {
             var future = _featureRepository.Get(x => x.Id == id);
+            if (future == null)
+            {
+                throw new EntityNotFoundException("Feature does not exsist");
+            }
             _featureRepository.Delete(future);
-           _featureRepository.Commit();
+            future.DeletedDate = DateTime.UtcNow.AddHours(4);
+            _featureRepository.Commit();
         }
 
         public List<Feature> GetAllFeatures(Func<Feature, bool>? func = null)
         {
-            var future = _featureRepository.GetAll(x=>x.DeletedDate ==null);
+            var future = _featureRepository.GetAll(func);
+            if (future == null)
+            {
+                throw new EntityNotFoundException("Features does not exsist");
+            }
             return future.ToList();
         }
 
         public Feature GetFeature(Func<Feature, bool>? func = null)
         {
-            var future = _featureRepository.Get(x => x.DeletedDate == null);
+            var future = _featureRepository.Get(func);
+
             return future;
         }
 
@@ -47,12 +66,20 @@ namespace Business.Services.Concretes
         {
             Feature oldFeature = _featureRepository.Get(x => x.Id == id);
 
-            if (oldFeature == null) throw new NullReferenceException();
+            if (oldFeature == null) throw new EntityNotFoundException("Feature does not exsist");
 
-            oldFeature.Icon = newFeature.Icon;
-            oldFeature.Title = newFeature.Title;
-            oldFeature.Description = newFeature.Description;
 
+
+            if (!_featureRepository.GetAll().Any(x => x.Title == newFeature.Title && x.Id != id))
+            {
+                oldFeature.Icon = newFeature.Icon;
+                oldFeature.Title = newFeature.Title;
+                oldFeature.Description = newFeature.Description;
+            }
+            else
+            {
+                throw new DuplicateEntityException("Feature Already Has");
+            }
 
             _featureRepository.Commit();
         }

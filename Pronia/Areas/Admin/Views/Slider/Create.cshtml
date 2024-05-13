@@ -1,0 +1,40 @@
+﻿@using Core.Models
+
+@model Slider
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <form method="post" asp-action="Create" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label class="col-sm-2 col-form-label">Title</label>
+                    <input asp-for="Title" name="Title" type="text" class="form-control" placeholder="Eli Gozel">
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Description</label>
+                    <input asp-for="Description" type="text" class="form-control" placeholder="Eli Gozel">
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Offer</label>
+                    <input asp-for="Offer" type="text" class="form-control" placeholder="Eli Gozel">
+                    <span asp-validation-for="Offer" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">RedirectUrl</label>
+                    <input asp-for="RedirectUrl" type="text" class="form-control" placeholder="Eli Gozel">
+                    <span asp-validation-for="RedirectUrl" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Image</label>
+                    <input asp-for="ImageFile" class="form-control" placeholder="Eli Gozel">
+                    <span asp-validation-for="ImageFile" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-success">Create</button>
+                <a asp-action="Index" class="btn btn-info">Cancel</a>
+
+            </form>
+        </div>
+    </div>
+</div>
