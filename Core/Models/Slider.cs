@@ -20,8 +20,8 @@ namespace Core.Models
         public string? RedirectUrl { get; set; }
         [StringLength(100)]
         public string? ImageUrl { get; set; }
-        [Required]
+        
         [NotMapped]
-        public IFormFile ImageFile { get; set; }
+        public IFormFile? ImageFile { get; set; }
     }
 }

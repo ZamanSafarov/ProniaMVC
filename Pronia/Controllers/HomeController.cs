@@ -1,6 +1,6 @@
 using Business.Services.Abstracts;
-using Core.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Pronia.ViewModels;
 using System.Diagnostics;
 
 namespace Pronia.Controllers

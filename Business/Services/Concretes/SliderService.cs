@@ -28,6 +28,10 @@ namespace Business.Services.Concretes
         }
         public async Task AddSlider(Slider slider)
         {
+            if (slider.ImageFile is null)
+            {
+                throw new FileNullReferenceException("File Can not be empty");
+            }
             _env.SliderImageRootAdd(slider);
 
             await _sliderRepository.AddAsync(slider);
@@ -42,10 +46,8 @@ namespace Business.Services.Concretes
             {
                 throw new EntityNotFoundException("Slider Not Found");
             }
-            string fileName = slider.ImageUrl;
 
-            //_env.ArchiveImage(fileName);
-
+            _env.ArchiveImage(slider.ImageUrl);
            _sliderRepository.Delete(slider);
            slider.DeletedDate = DateTime.UtcNow.AddHours(4);
             _sliderRepository.Commit();
@@ -74,8 +76,12 @@ namespace Business.Services.Concretes
             oldSlider.Title = newSlider.Title;
             oldSlider.Description = newSlider.Description;
             oldSlider.Offer = newSlider.Offer;
-            _env.SliderImageRootAdd(newSlider);
-            oldSlider.ImageUrl= newSlider.ImageUrl;
+            if (newSlider.ImageFile != null)
+            {
+                _env.ArchiveImage(oldSlider.ImageUrl);
+                _env.SliderImageRootAdd(newSlider);
+                oldSlider.ImageUrl = newSlider.ImageUrl;
+            }
             oldSlider.RedirectUrl = newSlider.RedirectUrl;
 
             _sliderRepository.Commit();

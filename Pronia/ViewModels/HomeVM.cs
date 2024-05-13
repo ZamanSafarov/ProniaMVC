@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.ViewModels
+namespace Pronia.ViewModels
 {
     public class HomeVM
     {

@@ -20368,12 +20368,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\scss\partials\menu\_pcmenu.html))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-1f11629b-fbd6-4cff-bab9-19c0b57b87cb.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\archive-20240513164842-slider-c0a96c76-1527-47a8-8b35-5887015adc92.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Pronia</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Pronia</BasePath>
-      <RelativePath>admin/uploads/sliders/slider-1f11629b-fbd6-4cff-bab9-19c0b57b87cb.png</RelativePath>
+      <RelativePath>admin/uploads/sliders/archive-20240513164842-slider-c0a96c76-1527-47a8-8b35-5887015adc92.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -20382,14 +20382,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-1f11629b-fbd6-4cff-bab9-19c0b57b87cb.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\archive-20240513164842-slider-c0a96c76-1527-47a8-8b35-5887015adc92.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-39e70c98-5879-43f2-ad4e-eafaa10aca1a.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\archive-20240513165515-slider-57785559-2c37-469f-a109-d361af6a55d1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Pronia</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Pronia</BasePath>
-      <RelativePath>admin/uploads/sliders/slider-39e70c98-5879-43f2-ad4e-eafaa10aca1a.jpg</RelativePath>
+      <RelativePath>admin/uploads/sliders/archive-20240513165515-slider-57785559-2c37-469f-a109-d361af6a55d1.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -20398,14 +20398,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-39e70c98-5879-43f2-ad4e-eafaa10aca1a.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\archive-20240513165515-slider-57785559-2c37-469f-a109-d361af6a55d1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-555cac69-d813-429b-abe8-7e0d65d968b2.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\archive-20240513165920-slider-7f56fade-3e8b-4706-91da-d7f230b7537a.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Pronia</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Pronia</BasePath>
-      <RelativePath>admin/uploads/sliders/slider-555cac69-d813-429b-abe8-7e0d65d968b2.jpg</RelativePath>
+      <RelativePath>admin/uploads/sliders/archive-20240513165920-slider-7f56fade-3e8b-4706-91da-d7f230b7537a.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -20414,14 +20414,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-555cac69-d813-429b-abe8-7e0d65d968b2.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\archive-20240513165920-slider-7f56fade-3e8b-4706-91da-d7f230b7537a.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-5668e0c7-7fda-4d19-b03c-1611a691b2e8.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\archive-20240513170752-slider-cd2815aa-a62b-4b30-ab4a-906f91238afb.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Pronia</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Pronia</BasePath>
-      <RelativePath>admin/uploads/sliders/slider-5668e0c7-7fda-4d19-b03c-1611a691b2e8.png</RelativePath>
+      <RelativePath>admin/uploads/sliders/archive-20240513170752-slider-cd2815aa-a62b-4b30-ab4a-906f91238afb.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -20430,14 +20430,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-5668e0c7-7fda-4d19-b03c-1611a691b2e8.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\archive-20240513170752-slider-cd2815aa-a62b-4b30-ab4a-906f91238afb.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-5e3a9fb4-d17f-46ee-aa5c-45de3312fb61.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\archive-20240513171819-slider-f0fbedd4-7583-4c19-a4a7-df81d8430057.png))">
       <SourceType>Package</SourceType>
       <SourceId>Pronia</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Pronia</BasePath>
-      <RelativePath>admin/uploads/sliders/slider-5e3a9fb4-d17f-46ee-aa5c-45de3312fb61.jpg</RelativePath>
+      <RelativePath>admin/uploads/sliders/archive-20240513171819-slider-f0fbedd4-7583-4c19-a4a7-df81d8430057.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -20446,14 +20446,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-5e3a9fb4-d17f-46ee-aa5c-45de3312fb61.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\archive-20240513171819-slider-f0fbedd4-7583-4c19-a4a7-df81d8430057.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-75c36692-22e2-4055-9c3a-59cfa7c6791f.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\archive-20240513171820-slider-1f11629b-fbd6-4cff-bab9-19c0b57b87cb.png))">
       <SourceType>Package</SourceType>
       <SourceId>Pronia</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Pronia</BasePath>
-      <RelativePath>admin/uploads/sliders/slider-75c36692-22e2-4055-9c3a-59cfa7c6791f.jpg</RelativePath>
+      <RelativePath>admin/uploads/sliders/archive-20240513171820-slider-1f11629b-fbd6-4cff-bab9-19c0b57b87cb.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -20462,14 +20462,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-75c36692-22e2-4055-9c3a-59cfa7c6791f.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\archive-20240513171820-slider-1f11629b-fbd6-4cff-bab9-19c0b57b87cb.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-88fe0e94-a48e-476f-b946-f9bfba20d6e3.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-09f7593c-64f9-404f-a181-cad86ecb0ca4.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Pronia</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Pronia</BasePath>
-      <RelativePath>admin/uploads/sliders/slider-88fe0e94-a48e-476f-b946-f9bfba20d6e3.png</RelativePath>
+      <RelativePath>admin/uploads/sliders/slider-09f7593c-64f9-404f-a181-cad86ecb0ca4.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -20478,14 +20478,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-88fe0e94-a48e-476f-b946-f9bfba20d6e3.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-09f7593c-64f9-404f-a181-cad86ecb0ca4.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-b5e7375d-1ec1-40f4-af74-d6c29b886653.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-91e3dc1a-92e9-49d7-b092-0b824b0edce5.png))">
       <SourceType>Package</SourceType>
       <SourceId>Pronia</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Pronia</BasePath>
-      <RelativePath>admin/uploads/sliders/slider-b5e7375d-1ec1-40f4-af74-d6c29b886653.png</RelativePath>
+      <RelativePath>admin/uploads/sliders/slider-91e3dc1a-92e9-49d7-b092-0b824b0edce5.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -20494,14 +20494,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-b5e7375d-1ec1-40f4-af74-d6c29b886653.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-91e3dc1a-92e9-49d7-b092-0b824b0edce5.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-b844fba6-5a20-4d73-945b-311100f4821d.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-9e83c301-57a3-4b20-931f-71d68b94a4bc.png))">
       <SourceType>Package</SourceType>
       <SourceId>Pronia</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Pronia</BasePath>
-      <RelativePath>admin/uploads/sliders/slider-b844fba6-5a20-4d73-945b-311100f4821d.jpg</RelativePath>
+      <RelativePath>admin/uploads/sliders/slider-9e83c301-57a3-4b20-931f-71d68b94a4bc.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -20510,39 +20510,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-b844fba6-5a20-4d73-945b-311100f4821d.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-e2746ccd-23ca-4501-97a8-150e2b5cb9e1.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>Pronia</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Pronia</BasePath>
-      <RelativePath>admin/uploads/sliders/slider-e2746ccd-23ca-4501-97a8-150e2b5cb9e1.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-e2746ccd-23ca-4501-97a8-150e2b5cb9e1.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-f0fbedd4-7583-4c19-a4a7-df81d8430057.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>Pronia</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Pronia</BasePath>
-      <RelativePath>admin/uploads/sliders/slider-f0fbedd4-7583-4c19-a4a7-df81d8430057.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-f0fbedd4-7583-4c19-a4a7-df81d8430057.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\admin\uploads\sliders\slider-9e83c301-57a3-4b20-931f-71d68b94a4bc.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\css\animate.min.css))">
       <SourceType>Package</SourceType>

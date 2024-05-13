@@ -42,7 +42,15 @@ namespace Pronia.Areas.Admin.Controllers
                 ModelState.AddModelError("ImageFile", ex.Message);
                 return View();
             }
-          
+            catch (FileNullReferenceException ex)
+            {
+                ModelState.AddModelError("ImageFile", ex.Message);
+                return View();
+            }
+            catch(Exception ex) {
+            return BadRequest(ex.Message);
+            }
+
             return RedirectToAction("Index");
         }
 
@@ -53,6 +61,10 @@ namespace Pronia.Areas.Admin.Controllers
                 _sliderService.DeleteSlider(id);
             }
             catch (EntityNotFoundException ex)
+            {
+                return NotFound();
+            }
+            catch(Business.Exceptions.FileNotFoundException ex)
             {
                 return NotFound();
             }
@@ -92,7 +104,21 @@ namespace Pronia.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-          
+            catch (Business.Exceptions.FileNotFoundException ex)
+            {
+                ModelState.AddModelError("ImageFile", ex.Message);
+                return View();
+            }
+            catch (FileNullReferenceException ex)
+            {
+                ModelState.AddModelError("ImageFile", ex.Message);
+                return View();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
 
             return RedirectToAction("Index");
 
