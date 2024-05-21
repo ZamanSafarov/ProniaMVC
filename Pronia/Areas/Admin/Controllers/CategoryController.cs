@@ -1,12 +1,14 @@
 ﻿using Business.Exceptions;
 using Business.Services.Abstracts;
 using Core.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Pronia.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class CategoryController : Controller
+	[Authorize(Roles = "SuperAdmin")]
+	public class CategoryController : Controller
     {
         private readonly ICategoryService _categoryService;
         public CategoryController(ICategoryService CategoryCategory)

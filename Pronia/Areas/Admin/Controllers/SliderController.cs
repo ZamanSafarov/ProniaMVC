@@ -2,12 +2,14 @@
 using Business.Services.Abstracts;
 using Business.Services.Concretes;
 using Core.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Pronia.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class SliderController : Controller
+	[Authorize(Roles = "SuperAdmin")]
+	public class SliderController : Controller
     {
         private readonly ISliderService _sliderService;
 

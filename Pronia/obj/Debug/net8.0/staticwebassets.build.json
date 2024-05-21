@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Fvs7WFb014immvTvwbZjHiXIhbs+IozsHVUlwujRFzA=",
+  "Hash": "4kFmmGb3i86aZv9UENJfRxp4vqx86uevPaZyUanWt2w=",
   "Source": "Pronia",
   "BasePath": "_content/Pronia",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\css\\linearicons.css"
+    },
+    {
+      "Identity": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\css\\login.css",
+      "SourceId": "Pronia",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\",
+      "BasePath": "_content/Pronia",
+      "RelativePath": "admin/css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\css\\login.css"
     },
     {
       "Identity": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\css\\mCSB_buttons.html",
@@ -6857,6 +6876,25 @@
       "OriginalItemSpec": "wwwroot\\admin\\images\\favicon.ico"
     },
     {
+      "Identity": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\images\\favicon2.ico",
+      "SourceId": "Pronia",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\",
+      "BasePath": "_content/Pronia",
+      "RelativePath": "admin/images/favicon2.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\images\\favicon2.ico"
+    },
+    {
       "Identity": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\images\\gallery-grid\\1.png",
       "SourceId": "Pronia",
       "SourceType": "Discovered",
@@ -7026,6 +7064,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\images\\gallery-grid\\masonry-8.jpg"
+    },
+    {
+      "Identity": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\images\\img-01.png",
+      "SourceId": "Pronia",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\",
+      "BasePath": "_content/Pronia",
+      "RelativePath": "admin/images/img-01.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\images\\img-01.png"
     },
     {
       "Identity": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\images\\light-box\\l1.jpg",

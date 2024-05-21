@@ -1,8 +1,10 @@
 using Business.Services.Abstracts;
 using Business.Services.Concretes;
+using Core.Models;
 using Core.RepositoryAbstracts;
 using Data.DAL;
 using Data.RepositoryConcretes;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
 
@@ -21,6 +23,21 @@ namespace Pronia
             options.UseSqlServer(builder.Configuration.GetConnectionString("cString"))
 
             );
+
+            builder.Services.AddIdentity<AppUser, IdentityRole>(opt => { 
+            
+            opt.Password.RequireNonAlphanumeric = true;
+                opt.Password.RequiredLength = 8;
+                opt.Password.RequireLowercase = true;
+                opt.Password.RequireUppercase = true;
+                opt.Password.RequireDigit = true;
+
+
+                opt.User.RequireUniqueEmail = false;
+
+
+            }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+
             builder.Services.AddScoped<IFeatureService,FeatureService>();
             builder.Services.AddScoped<IFeatureRepository,FeatureRepository>();
             builder.Services.AddScoped<IProductRepository, ProductRepository>();
@@ -38,15 +55,22 @@ namespace Pronia
             {
                 app.UseExceptionHandler("/Home/Error");
             }
-            app.UseStaticFiles();
+			app.UseHttpsRedirection();
+			app.UseStaticFiles();
 
             app.UseRouting();
             
+
+            app.UseAuthentication();
             app.UseAuthorization();
 
 
-           
-            app.MapAreaControllerRoute("defaultAdmin", "admin", "admin/{controller=dashboard}/{action=index}/{id?}");
+
+            //app.MapAreaControllerRoute("defaultAdmin", "admin", "admin/{controller=Dashboard}/{action=index}/{id?}");
+            app.MapControllerRoute(
+                    name: "areas",
+                    pattern: "{area:exists}/{controller=dashboard}/{action=Index}/{id?}"
+                  );
 
             app.MapControllerRoute("default", "{controller=home}/{action=index}/{id?}");
 

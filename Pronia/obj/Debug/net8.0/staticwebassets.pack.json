@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\admin\\css\\linearicons.css"
     },
     {
+      "Id": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\css\\login.css",
+      "PackagePath": "staticwebassets\\admin\\css\\login.css"
+    },
+    {
       "Id": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\css\\mCSB_buttons.html",
       "PackagePath": "staticwebassets\\admin\\css\\mCSB_buttons.html"
     },
@@ -1445,6 +1449,10 @@
       "PackagePath": "staticwebassets\\admin\\images\\favicon.ico"
     },
     {
+      "Id": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\images\\favicon2.ico",
+      "PackagePath": "staticwebassets\\admin\\images\\favicon2.ico"
+    },
+    {
       "Id": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\images\\gallery-grid\\1.png",
       "PackagePath": "staticwebassets\\admin\\images\\gallery-grid\\1.png"
     },
@@ -1479,6 +1487,10 @@
     {
       "Id": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\images\\gallery-grid\\masonry-8.jpg",
       "PackagePath": "staticwebassets\\admin\\images\\gallery-grid\\masonry-8.jpg"
+    },
+    {
+      "Id": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\images\\img-01.png",
+      "PackagePath": "staticwebassets\\admin\\images\\img-01.png"
     },
     {
       "Id": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\images\\light-box\\l1.jpg",

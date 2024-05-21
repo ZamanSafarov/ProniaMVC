@@ -9,7 +9,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace Pronia.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class FeatureController : Controller
+	[Authorize(Roles = "SuperAdmin")]
+	public class FeatureController : Controller
     {
         private readonly IFeatureService _featureService;
         public FeatureController(IFeatureService featureService)

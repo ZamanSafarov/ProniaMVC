@@ -1,4 +1,5 @@
 ﻿using Core.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Data.DAL
 {
-    public class AppDbContext:DbContext
+    public class AppDbContext:IdentityDbContext
     {
         public AppDbContext(DbContextOptions options):base(options)  {}
         public DbSet<Category> Categories { get; set; }
@@ -16,5 +17,6 @@ namespace Data.DAL
         public DbSet<Tag> Tags { get; set; }
         public DbSet<Feature> Features { get; set; }
         public DbSet<Slider> Sliders { get; set; }
+        public DbSet<AppUser> Users { get; set; }
     }
 }

@@ -1,8 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Pronia.Areas.Admin.Controllers
 {
-    public class TagController : Controller
+    [Area("Admin")]
+	[Authorize(Roles = "SuperAdmin")]
+	public class TagController : Controller
     {
         public IActionResult Index()
         {
