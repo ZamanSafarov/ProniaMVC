@@ -18,10 +18,11 @@ namespace Pronia.Areas.Admin.Controllers
             _sliderService = sliderService;
         }
 
-        public IActionResult Index()
+
+        public async Task<IActionResult> Index(int pageIndex = 1, int pageSize = 2)
         {
-            var sliders = _sliderService.GetAllSliders();
-            return View(sliders);
+            var paginatedSliders = await _sliderService.GetPaginatedSlidersAsync(pageIndex, pageSize);
+            return View(paginatedSliders);
         }
 
         public IActionResult Create()

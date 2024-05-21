@@ -69,7 +69,7 @@ namespace Pronia
             //app.MapAreaControllerRoute("defaultAdmin", "admin", "admin/{controller=Dashboard}/{action=index}/{id?}");
             app.MapControllerRoute(
                     name: "areas",
-                    pattern: "{area:exists}/{controller=dashboard}/{action=Index}/{id?}"
+                    pattern: "{area:exists}/{controller=account}/{action=Login}/{id?}"
                   );
 
             app.MapControllerRoute("default", "{controller=home}/{action=index}/{id?}");

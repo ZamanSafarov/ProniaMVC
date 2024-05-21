@@ -263,3 +263,7 @@ D:\Coding\Aztu-Codeacademy\ASP.NET CORE MVC\Pronia\Pronia\bin\Debug\net8.0\Micro
 D:\Coding\Aztu-Codeacademy\ASP.NET CORE MVC\Pronia\Pronia\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 D:\Coding\Aztu-Codeacademy\ASP.NET CORE MVC\Pronia\Pronia\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 D:\Coding\Aztu-Codeacademy\ASP.NET CORE MVC\Pronia\Pronia\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Coding\Aztu-Codeacademy\ASP.NET CORE MVC\Pronia\Pronia\obj\Debug\net8.0\Pronia.MvcApplicationPartsAssemblyInfo.cs
+D:\Coding\Aztu-Codeacademy\ASP.NET CORE MVC\Pronia\Pronia\bin\Debug\net8.0\JetBrains.Annotations.dll
+D:\Coding\Aztu-Codeacademy\ASP.NET CORE MVC\Pronia\Pronia\bin\Debug\net8.0\X.PagedList.dll
+D:\Coding\Aztu-Codeacademy\ASP.NET CORE MVC\Pronia\Pronia\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll

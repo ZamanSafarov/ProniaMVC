@@ -12,6 +12,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using X.PagedList;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace Business.Services.Concretes
@@ -85,6 +86,11 @@ namespace Business.Services.Concretes
             oldSlider.RedirectUrl = newSlider.RedirectUrl;
 
             _sliderRepository.Commit();
+        }
+
+        public async Task<IPagedList<Slider>> GetPaginatedSlidersAsync(int pageIndex, int pageSize)
+        {
+            return await _sliderRepository.GetPaginatedSlidersAsync(pageIndex, pageSize);
         }
     }
 }
