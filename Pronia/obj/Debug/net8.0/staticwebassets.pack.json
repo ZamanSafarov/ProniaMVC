@@ -1989,6 +1989,10 @@
       "PackagePath": "staticwebassets\\admin\\js\\jquery.quicksearch.js"
     },
     {
+      "Id": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\js\\main.js",
+      "PackagePath": "staticwebassets\\admin\\js\\main.js"
+    },
+    {
       "Id": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\js\\menu\\box-layout.js",
       "PackagePath": "staticwebassets\\admin\\js\\menu\\box-layout.js"
     },
@@ -5133,12 +5137,20 @@
       "PackagePath": "staticwebassets\\admin\\uploads\\sliders\\archive-20240513171820-slider-1f11629b-fbd6-4cff-bab9-19c0b57b87cb.png"
     },
     {
-      "Id": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\uploads\\sliders\\slider-09f7593c-64f9-404f-a181-cad86ecb0ca4.jpg",
-      "PackagePath": "staticwebassets\\admin\\uploads\\sliders\\slider-09f7593c-64f9-404f-a181-cad86ecb0ca4.jpg"
+      "Id": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\uploads\\sliders\\archive-20240523215946-slider-91e3dc1a-92e9-49d7-b092-0b824b0edce5.png",
+      "PackagePath": "staticwebassets\\admin\\uploads\\sliders\\archive-20240523215946-slider-91e3dc1a-92e9-49d7-b092-0b824b0edce5.png"
     },
     {
-      "Id": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\uploads\\sliders\\slider-91e3dc1a-92e9-49d7-b092-0b824b0edce5.png",
-      "PackagePath": "staticwebassets\\admin\\uploads\\sliders\\slider-91e3dc1a-92e9-49d7-b092-0b824b0edce5.png"
+      "Id": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\uploads\\sliders\\archive-20240523220021-slider-09f7593c-64f9-404f-a181-cad86ecb0ca4.jpg",
+      "PackagePath": "staticwebassets\\admin\\uploads\\sliders\\archive-20240523220021-slider-09f7593c-64f9-404f-a181-cad86ecb0ca4.jpg"
+    },
+    {
+      "Id": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\uploads\\sliders\\archive-20240523220245-slider-df00831b-1661-44be-a549-d349069da8e2.jpg",
+      "PackagePath": "staticwebassets\\admin\\uploads\\sliders\\archive-20240523220245-slider-df00831b-1661-44be-a549-d349069da8e2.jpg"
+    },
+    {
+      "Id": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\uploads\\sliders\\slider-11272ed8-0eef-4386-b70a-cf75542d5c16.png",
+      "PackagePath": "staticwebassets\\admin\\uploads\\sliders\\slider-11272ed8-0eef-4386-b70a-cf75542d5c16.png"
     },
     {
       "Id": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\uploads\\sliders\\slider-9e83c301-57a3-4b20-931f-71d68b94a4bc.png",

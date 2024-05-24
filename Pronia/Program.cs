@@ -47,6 +47,9 @@ namespace Pronia
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
             builder.Services.AddScoped<ISliderService, SliderService>();
             builder.Services.AddScoped<ISliderRepository, SliderRepository>();
+            builder.Services.AddScoped<ISettingRepository, SettingRepository>();
+            builder.Services.AddScoped<SettingService>();
+
 
             var app = builder.Build();
 

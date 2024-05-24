@@ -3,28 +3,72 @@
   "WorkspaceRootPath": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\pronia\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|solutionrelative:pronia\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\pronia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|solutionrelative:pronia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\pronia\\areas\\admin\\controllers\\settingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|solutionrelative:pronia\\areas\\admin\\controllers\\settingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\pronia\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|solutionrelative:pronia\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4858CFF8-1170-46F1-B0D1-5DF8F2F89757}|Data\\Data.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\data\\repositoryconcretes\\settingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4858CFF8-1170-46F1-B0D1-5DF8F2F89757}|Data\\Data.csproj|solutionrelative:data\\repositoryconcretes\\settingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDB4C24-6508-4D66-B36E-F0D61C22EA9F}|Core\\Core.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\core\\repositoryabstracts\\isettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDB4C24-6508-4D66-B36E-F0D61C22EA9F}|Core\\Core.csproj|solutionrelative:core\\repositoryabstracts\\isettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\pronia\\wwwroot\\admin\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|solutionrelative:pronia\\wwwroot\\admin\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\pronia\\areas\\admin\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|solutionrelative:pronia\\areas\\admin\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\pronia\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|solutionrelative:pronia\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\pronia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|solutionrelative:pronia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\pronia\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|solutionrelative:pronia\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\pronia\\areas\\admin\\views\\setting\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|solutionrelative:pronia\\areas\\admin\\views\\setting\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC1053CA-6D1C-4699-9649-0B1177AAA51A}|Business\\Business.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\business\\services\\concretes\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC1053CA-6D1C-4699-9649-0B1177AAA51A}|Business\\Business.csproj|solutionrelative:business\\services\\concretes\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\pronia\\areas\\admin\\views\\setting\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|solutionrelative:pronia\\areas\\admin\\views\\setting\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4858CFF8-1170-46F1-B0D1-5DF8F2F89757}|Data\\Data.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\data\\repositoryconcretes\\sliderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4858CFF8-1170-46F1-B0D1-5DF8F2F89757}|Data\\Data.csproj|solutionrelative:data\\repositoryconcretes\\sliderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC1053CA-6D1C-4699-9649-0B1177AAA51A}|Business\\Business.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\business\\services\\concretes\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1053CA-6D1C-4699-9649-0B1177AAA51A}|Business\\Business.csproj|solutionrelative:business\\services\\concretes\\settingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFDB4C24-6508-4D66-B36E-F0D61C22EA9F}|Core\\Core.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EFDB4C24-6508-4D66-B36E-F0D61C22EA9F}|Core\\Core.csproj|solutionrelative:core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\pronia\\areas\\admin\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD59A1A9-6361-4DE3-9103-A4ED0CFC6585}|Pronia\\Pronia.csproj|solutionrelative:pronia\\areas\\admin\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1053CA-6D1C-4699-9649-0B1177AAA51A}|Business\\Business.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\business\\services\\abstracts\\isettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1053CA-6D1C-4699-9649-0B1177AAA51A}|Business\\Business.csproj|solutionrelative:business\\services\\abstracts\\isettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4858CFF8-1170-46F1-B0D1-5DF8F2F89757}|Data\\Data.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\data\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4858CFF8-1170-46F1-B0D1-5DF8F2F89757}|Data\\Data.csproj|solutionrelative:data\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDB4C24-6508-4D66-B36E-F0D61C22EA9F}|Core\\Core.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\core\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDB4C24-6508-4D66-B36E-F0D61C22EA9F}|Core\\Core.csproj|solutionrelative:core\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4858CFF8-1170-46F1-B0D1-5DF8F2F89757}|Data\\Data.csproj|d:\\coding\\aztu-codeacademy\\asp.net core mvc\\pronia\\data\\migrations\\20240523184719_settingstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4858CFF8-1170-46F1-B0D1-5DF8F2F89757}|Data\\Data.csproj|solutionrelative:data\\migrations\\20240523184719_settingstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,76 +86,216 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SliderController.cs",
-              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "RelativeDocumentMoniker": "Pronia\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "RelativeToolTip": "Pronia\\Areas\\Admin\\Controllers\\SliderController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T21:34:30.161Z"
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\appsettings.json",
+              "RelativeDocumentMoniker": "Pronia\\appsettings.json",
+              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\appsettings.json",
+              "RelativeToolTip": "Pronia\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAADOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-23T20:26:28.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Areas\\Admin\\Views\\Setting\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pronia\\Areas\\Admin\\Views\\Setting\\Create.cshtml",
+              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Areas\\Admin\\Views\\Setting\\Create.cshtml",
+              "RelativeToolTip": "Pronia\\Areas\\Admin\\Views\\Setting\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T19:22:34.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Sidebar.cshtml",
+              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Areas\\Admin\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeDocumentMoniker": "Pronia\\Areas\\Admin\\Views\\Shared\\_Sidebar.cshtml",
+              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Areas\\Admin\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeToolTip": "Pronia\\Areas\\Admin\\Views\\Shared\\_Sidebar.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAADwvzoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T19:20:21.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Areas\\Admin\\Views\\Setting\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pronia\\Areas\\Admin\\Views\\Setting\\Index.cshtml",
+              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Areas\\Admin\\Views\\Setting\\Index.cshtml",
+              "RelativeToolTip": "Pronia\\Areas\\Admin\\Views\\Setting\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T19:10:54.737Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Pronia\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Pronia\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T21:32:51.853Z"
+              "Title": "SettingController.cs",
+              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Areas\\Admin\\Controllers\\SettingController.cs",
+              "RelativeDocumentMoniker": "Pronia\\Areas\\Admin\\Controllers\\SettingController.cs",
+              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Areas\\Admin\\Controllers\\SettingController.cs",
+              "RelativeToolTip": "Pronia\\Areas\\Admin\\Controllers\\SettingController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T19:10:33.241Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SliderService.cs",
-              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Business\\Services\\Concretes\\SliderService.cs",
-              "RelativeDocumentMoniker": "Business\\Services\\Concretes\\SliderService.cs",
-              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Business\\Services\\Concretes\\SliderService.cs",
-              "RelativeToolTip": "Business\\Services\\Concretes\\SliderService.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAA7wFwAAABZAAAA",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Program.cs",
+              "RelativeDocumentMoniker": "Pronia\\Program.cs",
+              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Program.cs",
+              "RelativeToolTip": "Pronia\\Program.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwDEAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T21:31:34.458Z"
+              "WhenOpened": "2024-05-23T19:03:23.916Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pronia\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
-              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
-              "RelativeToolTip": "Pronia\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACsAAABwAAAA",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pronia\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pronia\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAiwHsAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T21:30:50.539Z",
+              "WhenOpened": "2024-05-23T18:59:51.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SettingService.cs",
+              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Business\\Services\\Concretes\\SettingService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\Concretes\\SettingService.cs",
+              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Business\\Services\\Concretes\\SettingService.cs",
+              "RelativeToolTip": "Business\\Services\\Concretes\\SettingService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwBcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T18:58:12.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ISettingService.cs",
+              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Business\\Services\\Abstracts\\ISettingService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\Abstracts\\ISettingService.cs",
+              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Business\\Services\\Abstracts\\ISettingService.cs",
+              "RelativeToolTip": "Business\\Services\\Abstracts\\ISettingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T18:57:10.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SettingRepository.cs",
+              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Data\\RepositoryConcretes\\SettingRepository.cs",
+              "RelativeDocumentMoniker": "Data\\RepositoryConcretes\\SettingRepository.cs",
+              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Data\\RepositoryConcretes\\SettingRepository.cs",
+              "RelativeToolTip": "Data\\RepositoryConcretes\\SettingRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T18:50:29.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Core.csproj",
-              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Core\\Core.csproj",
-              "RelativeDocumentMoniker": "Core\\Core.csproj",
-              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Core\\Core.csproj",
-              "RelativeToolTip": "Core\\Core.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-21T21:28:27.057Z"
+              "Title": "ISettingRepository.cs",
+              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Core\\RepositoryAbstracts\\ISettingRepository.cs",
+              "RelativeDocumentMoniker": "Core\\RepositoryAbstracts\\ISettingRepository.cs",
+              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Core\\RepositoryAbstracts\\ISettingRepository.cs",
+              "RelativeToolTip": "Core\\RepositoryAbstracts\\ISettingRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T18:48:47.608Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SliderRepository.cs",
-              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Data\\RepositoryConcretes\\SliderRepository.cs",
-              "RelativeDocumentMoniker": "Data\\RepositoryConcretes\\SliderRepository.cs",
-              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Data\\RepositoryConcretes\\SliderRepository.cs",
-              "RelativeToolTip": "Data\\RepositoryConcretes\\SliderRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABFAAAA",
+              "DocumentIndex": 16,
+              "Title": "20240523184719_SettingsTable.cs",
+              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Data\\Migrations\\20240523184719_SettingsTable.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240523184719_SettingsTable.cs",
+              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Data\\Migrations\\20240523184719_SettingsTable.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240523184719_SettingsTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T21:21:24.548Z"
+              "WhenOpened": "2024-05-23T18:47:20.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Data\\DAL\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\DAL\\AppDbContext.cs",
+              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Data\\DAL\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\DAL\\AppDbContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T18:44:30.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Core\\Models\\Setting.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Setting.cs",
+              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Core\\Models\\Setting.cs",
+              "RelativeToolTip": "Core\\Models\\Setting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T18:43:38.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pronia\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pronia\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMBAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T17:53:31.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pronia\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "RelativeToolTip": "Pronia\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAqwCwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T17:49:25.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "main.js",
+              "DocumentMoniker": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\js\\main.js",
+              "RelativeDocumentMoniker": "Pronia\\wwwroot\\admin\\js\\main.js",
+              "ToolTip": "D:\\Coding\\Aztu-Codeacademy\\ASP.NET CORE MVC\\Pronia\\Pronia\\wwwroot\\admin\\js\\main.js",
+              "RelativeToolTip": "Pronia\\wwwroot\\admin\\js\\main.js",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-23T17:49:21.141Z",
+              "EditorCaption": ""
             }
           ]
         }

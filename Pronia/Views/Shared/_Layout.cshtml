@@ -1,4 +1,13 @@
-﻿﻿
+﻿@using Business.Services.Concretes
+
+
+@inject SettingService settingService
+@{
+
+    Dictionary<string, string> setting = await settingService.GetSettingAsync();
+}
+
+﻿
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
@@ -98,7 +107,7 @@
                             <div class="header-middle-wrap position-relative">
                                 <div class="header-contact d-none d-lg-flex">
                                     <i class="pe-7s-call"></i>
-                                    <a href="tel://+00-123-456-789">+00 123 456 789</a>
+                                    <a href="tel://+00-123-456-789">@setting["Phone"]</a>
                                 </div>
 
                                 <a href="index.html" class="header-logo">
@@ -112,7 +121,7 @@
                                                class="search-btn bt"
                                                data-bs-toggle="modal"
                                                data-bs-target="#exampleModal">
-                                                <i class="pe-7s-search"></i>
+                                               @Html.Raw(setting["Search"])
                                             </a>
                                         </li>
                                         <li class="dropdown d-none d-lg-block">

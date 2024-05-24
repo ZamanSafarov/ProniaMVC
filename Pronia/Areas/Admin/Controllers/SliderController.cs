@@ -71,7 +71,7 @@ namespace Pronia.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            return RedirectToAction("Index");
+            return Ok();
         }
 
         public IActionResult Update(int id) 

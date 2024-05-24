@@ -18,5 +18,6 @@ namespace Data.DAL
         public DbSet<Feature> Features { get; set; }
         public DbSet<Slider> Sliders { get; set; }
         public DbSet<AppUser> Users { get; set; }
+        public DbSet<Setting> Settings { get; set; }
     }
 }
